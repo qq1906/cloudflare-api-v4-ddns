@@ -1,6 +1,7 @@
 Cloudflare API v4 Dynamic DNS Update in Bash, without unnecessary requests
 Now the script also supports v6(AAAA DDNS Recoards)
 
+```
 # incorrect api-key results in E_UNAUTH error
 # 填写 Global API Key
 CFKEY=
@@ -25,3 +26,5 @@ CFRECORD_NAME=
 
 参考文章：
 https://www.imiku.com/archives/330.html
+
+```
